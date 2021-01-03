@@ -3,7 +3,7 @@
 
 <main>
     <div class="flex flex-col h-screen">
-        <div class="flex flex-1 overflow-y-hidden">
+        <div class="flex flex-1 overflow-y-hidden overflow-x-hidden">
             <div class="sideBar flex-none text-white justify-between flex flex-col font-semibold">
                 <div>
                     <ul class="py-6 font-bold ml-2 playlists">
@@ -28,7 +28,7 @@
                     <ul class="ml-2 playlists">
                         <li>
                             <a class="flex items-center mx-4 mt-4">
-                                <h1 class="uppercase">Playlists</h1>
+                                <h1 class="uppercase cursor-default">Playlists</h1>
                             </a>
                             <ul class="font-bold">
                                 <li>
@@ -64,7 +64,12 @@
                         <li class="truncate"><a href="#" class="hover:text-white font-normal">Beast Mode</a></li>
                         <li class="truncate"><a href="#" class="hover:text-white font-normal">All Out 90s</a></li>
                         <li class="truncate"><a href="#" class="hover:text-white font-normal">Chill Hits</a></li>
-                        <li class="truncate"><a href="#" class="hover:text-white font-normal">Peaceful Piano</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white font-normal">Hot Country</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white font-normal">Get Turnt</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white font-normal">Mood Booster</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white font-normal">mint</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white font-normal">Esquenta Sertanejo</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white font-normal">Happy Hits!</a></li>
                     </ul>
                 </div>
                 <div class="bottom h-16 px-4 py-1 flex items-center group ml-2 ">
@@ -93,84 +98,84 @@
                     </div>
                 </div>
 
-                <div class="overflow-y-auto">
+                <div class="overflow-y-auto ">
 
                     <div class="mx-auto">
                         <div class="flex justify-between inline-block pt-2">
                             <a href="#" class="leading-3 ml-8 text-2xl align-bottom inline-block font-bold hover:underline">Shortcuts</a>
                             <a href="#" class="seemore def-color align-bottom mr-8 uppercase inline-block hover:underline font-bold">See All</a>
                         </div>
-                        <div class="ml-4">
-                            <div class="flex flex-wrap items-center mt-4">
+                        <div  class="px-4 mr-4" >
+                            <div id="horiScroll" class="  whitespace-nowrap overflow-x-scroll overflow-y-hidden">
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover0.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">Sad Songs</a>
                                             <div class="playlists">I cry to this</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class=" inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover1.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">Blond</a>
                                             <div class="playlists">Frank Ocean</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class=" inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover2.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">Fine Line</a>
                                             <div class="playlists">Harry Styles</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-full shadow-md" src="covers/artist0.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
-                                            <a href="#" class="font-bold">DJ Khaled</a>
+                                        <div class="ml-5 pb-3 truncate" >
+                                            <a href="#" class="font-bold ">DJ Khaled</a>
                                             <div class="playlists">Artist</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover3.png" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
-                                            <a href="#" class="font-bold">Wish You Were Here</a>
+                                        <div class="ml-5 pb-3 truncate" >
+                                            <a href="#" class="font-bold ">Wish You Were Here</a>
                                             <div class="playlists">Pink Floyd</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover4.png" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">AM</a>
-                                            <div class="playlists">Arctic Monkeys</div>
+                                            <div class="playlists ">Arctic Monkeys</div>
                                         </div>
                                     </div>
                                 </div>
@@ -178,81 +183,81 @@
                             </div>
                         </div>
 
-                        <div class="flex justify-between inline-block pt-2 mt-6">
+                        <div class="flex justify-between inline-block pt-8">
                             <a href="#" class="leading-3 ml-8 text-2xl align-bottom inline-block font-bold hover:underline">Recently played</a>
                             <a href="#" class="seemore def-color align-bottom mr-8 uppercase inline-block hover:underline font-bold">See All</a>
                         </div>
-                        <div class="ml-4">
-                            <div class="flex flex-wrap items-center mt-4">
+                        <div class="px-4 mr-4" >
+                            <div id="horiScroll" class="  whitespace-nowrap overflow-x-scroll overflow-y-hidden">
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover0.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">Sad Songs</a>
                                             <div class="playlists">I cry to this</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class=" inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover1.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">Blond</a>
                                             <div class="playlists">Frank Ocean</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class=" inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover2.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">Fine Line</a>
                                             <div class="playlists">Harry Styles</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-full shadow-md" src="covers/artist0.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
-                                            <a href="#" class="font-bold">DJ Khaled</a>
+                                        <div class="ml-5 pb-3 truncate" >
+                                            <a href="#" class="font-bold ">DJ Khaled</a>
                                             <div class="playlists">Artist</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover3.png" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
-                                            <a href="#" class="font-bold">Wish You Were Here</a>
+                                        <div class="ml-5 pb-3 truncate" >
+                                            <a href="#" class="font-bold ">Wish You Were Here</a>
                                             <div class="playlists">Pink Floyd</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover4.png" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">AM</a>
-                                            <div class="playlists">Arctic Monkeys</div>
+                                            <div class="playlists ">Arctic Monkeys</div>
                                         </div>
                                     </div>
                                 </div>
@@ -260,87 +265,88 @@
                             </div>
                         </div>
 
-                        <div class="flex justify-between inline-block pt-2 mt-6">
+                        <div class="flex justify-between inline-block pt-8">
                             <a href="#" class="leading-3 ml-8 text-2xl align-bottom inline-block font-bold hover:underline">Jump back in</a>
                             <a href="#" class="seemore def-color align-bottom mr-8 uppercase inline-block hover:underline font-bold">See All</a>
                         </div>
-                        <div class="ml-4">
-                            <div class="flex flex-wrap items-center mt-4">
+                        <div class="px-4 mr-4" >
+                            <div id="horiScroll" class="  whitespace-nowrap overflow-x-scroll overflow-y-hidden">
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover0.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">Sad Songs</a>
                                             <div class="playlists">I cry to this</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class=" inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover1.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">Blond</a>
                                             <div class="playlists">Frank Ocean</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class=" inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover2.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">Fine Line</a>
                                             <div class="playlists">Harry Styles</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-full shadow-md" src="covers/artist0.jpg" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
-                                            <a href="#" class="font-bold">DJ Khaled</a>
+                                        <div class="ml-5 pb-3 truncate" >
+                                            <a href="#" class="font-bold ">DJ Khaled</a>
                                             <div class="playlists">Artist</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover3.png" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
-                                            <a href="#" class="font-bold">Wish You Were Here</a>
+                                        <div class="ml-5 pb-3 truncate" >
+                                            <a href="#" class="font-bold ">Wish You Were Here</a>
                                             <div class="playlists">Pink Floyd</div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
+                                <div class="inline-block w-1/6 px-4 max-w-xs rounded overflow-hidden shadow-lg my-2">
                                     <div class="card rounded-lg shadow-md">
                                         <div class="rounded-lg card-image">
                                             <a href="#" ><img class=" rounded-md shadow-md" src="covers/cover4.png" alt="cover"></a>
                                         </div>
-                                        <div class="ml-5 pb-3 " >
+                                        <div class="ml-5 pb-3 truncate" >
                                             <a href="#" class="font-bold">AM</a>
-                                            <div class="playlists">Arctic Monkeys</div>
+                                            <div class="playlists ">Arctic Monkeys</div>
                                         </div>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
+
                     </div>
 
                 </div>
@@ -426,6 +432,42 @@
         height: 5.5rem;
         background-color: #282828;
     }
+
+
+    #horiScroll::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    #horiScroll::-webkit-scrollbar-button {
+        width: 0px;
+        height: 0px;
+    }
+    #horiScroll::-webkit-scrollbar-thumb {
+        background: #e1e1e1;
+        border: 0px none #ffffff;
+        border-radius: 0px;
+    }
+    #horiScroll::-webkit-scrollbar-thumb:hover {
+        background: #ffffff;
+    }
+    #horiScroll::-webkit-scrollbar-thumb:active {
+        background: #000000;
+    }
+    #horiScroll::-webkit-scrollbar-track {
+        background: #666666;
+        border: 0px none #ffffff;
+        border-radius: 0px;
+    }
+    #horiScroll::-webkit-scrollbar-track:hover {
+        background: #666666;
+    }
+    #horiScroll::-webkit-scrollbar-track:active {
+        background: #333333;
+    }
+    #horiScroll::-webkit-scrollbar-corner {
+        background: transparent;
+    }
+
 
     @import 'tailwindcss/base';
     @import 'tailwindcss/components';
